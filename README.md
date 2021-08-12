@@ -57,7 +57,8 @@ Here are all the parameters accepted by Toast composable.
 @Composable
 fun Toast(
     message: String,
-    showToast: Boolean, afterToastShown: (Boolean) -> Unit,
+    showToast: Boolean, 
+    afterToastShown: (Boolean) -> Unit,
     toastDelay: ToastDelay = ToastDelay.ShortDelay,
     shape: Shape = CircleShape,
     background: Color = Color.Gray,
